@@ -33,20 +33,22 @@ class MyApp extends StatelessWidget {
         //     child: Text("Hello World"),
         //   ),
         // ),
-        body: Column(
-          // mainAxisAlignment: MainAxisAlignment.center,
-          // crossAxisAlignment: CrossAxisAlignment.end,
-          // children: [
-          //   Container(height: 70, width: 70, color: Colors.black),
-          //   Container(height: 70, width: 70, color: Colors.pinkAccent),
-          //   Container(height: 70, width: 70, color: Colors.black),
-          // ],
-          mainAxisAlignment: MainAxisAlignment.center,
-          children: [
-            Image.asset('assets/download.jpeg'),
-            Image.asset('assets/download.jpeg'),
-            Image.asset('assets/download.jpeg'),
-          ],
+        body: SingleChildScrollView(
+          child: Column(
+            // mainAxisAlignment: MainAxisAlignment.center,
+            // crossAxisAlignment: CrossAxisAlignment.end,
+            // children: [
+            //   Container(height: 70, width: 70, color: Colors.black),
+            //   Container(height: 70, width: 70, color: Colors.pinkAccent),
+            //   Container(height: 70, width: 70, color: Colors.black),
+            // ],
+            mainAxisAlignment: MainAxisAlignment.center,
+            children: [
+              Image.asset('assets/download.jpeg'),
+              Image.asset('assets/download.jpeg'),
+              Image.asset('assets/download.jpeg'),
+            ],
+          ),
         ),
       ),
     );
